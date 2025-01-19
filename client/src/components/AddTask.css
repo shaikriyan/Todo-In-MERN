@@ -1,0 +1,19 @@
+
+.task{
+    display: flex;
+    margin: 1rem;
+    justify-content: flex-start;
+}
+
+.task-btn{
+    border-radius: 100%;
+    margin-left: 15px;
+}
+
+
+.task-text{
+    width: 90%;
+    border: 2px solid gray;
+}
+
+
