@@ -1,7 +1,7 @@
 const fetchAllTodos = async (path, method, data) => {
   let result;
   try {
-    const BASE_URI = `http://localhost:4000/api/todos/${path}`;
+    const BASE_URI = `https://simple-todo-in-mern-be.vercel.app/api/todos/${path}`;
     
     
     const resp = (method !== 'GET') ? await fetch(BASE_URI, {
